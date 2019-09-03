@@ -302,12 +302,15 @@ eslint-loader
 webpack 开启监听模式，有两种
 
 ```js
+// 1.package.json 启动webpack命令式 带上--watch 参数，启动监听后，需要⼿动刷新浏览器
 {
-  // 1.启动webpack命令式 带上--watch 参数，启动监听后，需要⼿动刷新浏览器
   scripts: {
     watch: 'webpack --watch'
   },
-  // 2.在配置⽂件⾥设置 watch:true
+}
+
+// 2.在webpack配置⽂件⾥设置 watch:true
+{
   watch: true, //默认false,不开启
   //配合watch,只有开启才有作⽤
   watchOptions: {
