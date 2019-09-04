@@ -12,7 +12,7 @@ module.exports = {
   output: {
     // 输出结构
     path: path.resolve(__dirname, './dist'),
-    filename: '[name]_[chunkhash:8].js'
+    filename: '[name]_[contenthash:8].js'
     // filename: '[name].js'
   },
   mode: 'development', // 打包环境

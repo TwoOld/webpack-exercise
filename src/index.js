@@ -8,4 +8,4 @@ const root = document.getElementById('root')
 root.append(img)
 
 document.write('hi webpack!!!嗨')
-console.log('change!!')
+console.log('change!!!')
